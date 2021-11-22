@@ -1,7 +1,6 @@
 num = []
 arr = []
 
-#main
 while True:
     n = input('Dữ liệu cần nhập cho mảng: ')
     if (n.isdigit() == True):
