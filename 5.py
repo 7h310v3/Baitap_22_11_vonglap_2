@@ -1,5 +1,5 @@
 num = []
-arr = []
+local = []
 
 while True:
     n = input('Dữ liệu cần nhập cho mảng: ')
@@ -16,12 +16,12 @@ count = 0
 flag = 0
 while(count < len(num)):
         if(x == num[count]):
-            arr.append(count)
+            local.append(count)
             flag = 1
         count += 1
 
 if(flag == 1):
-    print("Giá trị", x, "xuất hiện đầu tiên trong danh sách tại vị trí:",arr[0])
-    print("Giá trị", x, "xuất hiện trong danh sách tại các vị trí:",arr)
+    print("Giá trị", x, "xuất hiện đầu tiên trong danh sách tại vị trí:",local[0])
+    print("Giá trị", x, "xuất hiện trong danh sách tại các vị trí:",local)
 else:
     print("Không có giá trị", x, "xuất hiện trong danh sách")
