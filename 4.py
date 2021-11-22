@@ -1,9 +1,8 @@
-arr = input("Nhập chuỗi: ")
-
-print(len(arr))
-
-arr=" ".join(arr.split()).split(" ")
+arr = input("Nhập chuỗi: ").split()
 
 print(arr)
 
 print(type(arr))
+
+
+
