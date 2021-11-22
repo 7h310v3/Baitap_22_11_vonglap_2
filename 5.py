@@ -2,11 +2,11 @@ num = []
 local = []
 
 while True:
-    n = input('Dữ liệu cần nhập cho mảng: ')
+    n = input("Dữ liệu cần nhập cho mảng: ")
     if (n.isdigit() == True):
         num.append(int(n))
     else:
-        print('Dữ liệu đã nhập thành công')
+        print("Dữ liệu đã nhập thành công")
         break
 print(num)
 
